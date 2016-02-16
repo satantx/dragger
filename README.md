@@ -5,9 +5,9 @@ $('.class').dragger();
 
 <h3>Настройки</h3>
 ```javascript
-$('.dragger1').dragger({
-	starClass: 'dragger-start1',
-	endClass: 'dragger-end1',
+$('.dragger').dragger({
+	starClass: 'dragger-start',
+	endClass: 'dragger-end',
 	dragClass: 'drag',
 	drag: true
 });
