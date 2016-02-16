@@ -11,8 +11,7 @@
 <style type="text/css">
 	* {margin: 0; padding: 0;}
 
-	.dragger,
-	.dragger1 {
+	.dragger {
 		position: relative;
 		width: 728px;
 		height: 498px;
@@ -20,8 +19,7 @@
 		cursor: none;
 	}
 
-	.dragger-end,
-	.dragger-end1 {
+	.dragger-end {
 		position: absolute;
 		right: 0; top: 0;
 		width: 50%;
@@ -30,8 +28,7 @@
 		overflow: hidden;
 	}
 
-	.dragger-end img,
-	.dragger-end1 img {
+	.dragger-end img {
 		position: absolute;
 		right: 0; top: 0;
 	}
@@ -51,9 +48,9 @@
 
 <script type="text/javascript">
 	$(document).ready(function() {
-		$('.dragger1').dragger({
-			starClass: 'dragger-start1',
-			endClass: 'dragger-end1',
+		$('.dragger').dragger({
+			starClass: 'dragger-start',
+			endClass: 'dragger-end',
 			dragClass: 'drag',
 		 	drag: true
 		});
