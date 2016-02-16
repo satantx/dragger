@@ -14,9 +14,4 @@ $('.dragger1').dragger({
 </pre>
 
 Html
-<pre>
-<div class="class">
-	<img src="">
-	<img src="">
-</div>
-</pre>
+
