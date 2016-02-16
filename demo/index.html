@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/dragger.js"></script>
+</head>
+<body>
+
+<style type="text/css">
+	* {margin: 0; padding: 0;}
+
+	.dragger,
+	.dragger1 {
+		position: relative;
+		width: 728px;
+		height: 498px;
+		overflow: hidden;
+		cursor: none;
+	}
+
+	.dragger-end,
+	.dragger-end1 {
+		position: absolute;
+		right: 0; top: 0;
+		width: 50%;
+		height: 100%;
+		text-align: right;
+		overflow: hidden;
+	}
+
+	.dragger-end img,
+	.dragger-end1 img {
+		position: absolute;
+		right: 0; top: 0;
+	}
+
+	.drag {
+		width: 20px;
+		height: 20px;
+		border-radius: 10px;
+		background-color: #fff;
+		position: absolute;
+		box-shadow: 0 1px 3px rgba(0,0,0,.5);
+		margin: -10px 0 0 -10px;
+		left: 50%; top: 50%;
+	}
+
+</style>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('.dragger1').dragger({
+			starClass: 'dragger-start1',
+			endClass: 'dragger-end1',
+			dragClass: 'drag',
+		 	drag: true
+		});
+	});
+</script>
+
+<div class="dragger">
+	<img src="img/dragger-start.png">
+	<img src="img/dragger-end.png">
+</div>
+
+</body>
+</html>
