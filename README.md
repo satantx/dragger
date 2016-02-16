@@ -16,7 +16,7 @@ $('.dragger1').dragger({
 Html
 <pre>
 <div class="class">
-	<img src="image-start.png">
-	<img src="image-end.png">
+	<img src="">
+	<img src="">
 </div>
 </pre>
