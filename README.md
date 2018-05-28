@@ -1,9 +1,9 @@
-## Вызов плагина
+### Вызов плагина
 ```javascript
 $('.class').dragger();
 ```
 
-## Настройки
+### Настройки
 ```javascript
 $('.dragger').dragger({
 	starClass: 'dragger-start',
@@ -13,7 +13,7 @@ $('.dragger').dragger({
 });
 ```
 
-## Html
+### Html
 ```html
 <div class="dragger">
 	<img src="dragger-start.png">
