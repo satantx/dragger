@@ -1,10 +1,10 @@
-<h3>Вызов плагина</h3>
-```
+# Вызов плагина
+```javascript
 $('.class').dragger();
 ```
 
-<h3>Настройки</h3>
-```
+# Настройки
+```javascript
 $('.dragger').dragger({
 	starClass: 'dragger-start',
 	endClass: 'dragger-end',
@@ -13,8 +13,8 @@ $('.dragger').dragger({
 });
 ```
 
-<h3>Html</h3>
-```
+# Html
+```html
 <div class="dragger">
 	<img src="dragger-start.png">
 	<img src="dragger-end.png">
